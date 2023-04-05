@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+    @apply text-gray-500;
+}
+
+main {
+    background: url('/images/bg.png') repeat;
+}
+
+/* .nav-parent:hover .nav-icon {
+    @apply text-primary;
+} */
