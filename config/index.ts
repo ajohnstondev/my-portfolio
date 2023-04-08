@@ -159,6 +159,7 @@ export const CONFIG = {
     },
     {
       link: "https://webflix-web.vercel.app/",
+      git: "https://github.com/ajohnstondev/webflix",
       image: "/projects/webflix.png",
       title: "Webflix",
       brief: "A Netflix-inspired movie app that allows users to browse and search for films and series",
@@ -254,9 +255,34 @@ export const CONFIG = {
       link: "https://www.hackerrank.com/certificates/50d55243a435",
     },
     {
+      title: "React Redux Certificates - TestDome",
+      image: "/certifications/cert-testdome-react_redux.png",
+      link: "https://www.testdome.com/certificates/189cb34d8f3e450fbcf63a43dd842d70",
+    },
+    {
       title: "Vue(Hard) Certificates - TestDome",
       image: "/certifications/cert-testdome-vue.png",
       link: "https://www.testdome.com/certificates/2ed4025351484851ae5f08d5d1adc08b",
+    },
+    {
+      title: "Angular RxJs Certificates - TestDome",
+      image: "/certifications/cert-testdome-angular_rxjs.png",
+      link: "https://www.testdome.com/certificates/03f14b9870a1400c90850198c4d223f1",
+    },
+    {
+      title: "Typescript Certificates - TestDome",
+      image: "/certifications/cert-testdome-typescript.png",
+      link: "https://www.testdome.com/certificates/db8c2b6a88fe442fb2b904c51ceec5da",
+    },
+    {
+      title: "JavaScript and Node Certificates - TestDome",
+      image: "/certifications/cert-testdome-javascript_node.png",
+      link: "https://www.testdome.com/certificates/1896c1fc1186425f89fd29d02c1e658c",
+    },
+    {
+      title: "Java Certificates - TestDome",
+      image: "/certifications/cert-testdome-java.png",
+      link: "https://www.testdome.com/certificates/ea39ca71ca6a4d9881e6e38f0e742aec",
     },
   ]
 };

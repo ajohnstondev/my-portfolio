@@ -29,6 +29,7 @@ const Projects: React.FC = () => {
             role={project.role}
             timeline={project.timeline}
             challenge={project.challenge}
+            git={project.git}
             onClick={() => {
               setShowModal(project);
               document.body.style['overflowY'] = 'hidden';
