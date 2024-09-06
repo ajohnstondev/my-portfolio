@@ -11,7 +11,7 @@ const Certifications: React.FC = () => {
       <div
         className="w-full grid gap-8 px-[max(5%,10px)] py-10 max-w-[1800px]"
         style={{
-          gridTemplateColumns: "repeat(auto-fit, minmax(360px, 1fr))"
+          gridTemplateColumns: "repeat(auto-fit, minmax(362px, 1fr))"
         }}
       >
         {CONFIG.certifications.map((certification, index) => (

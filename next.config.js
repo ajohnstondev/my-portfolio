@@ -5,7 +5,10 @@ const nextConfig = {
   },
   output: 'export',
   assetPrefix: './',
-  exportPathMap: async function () {
+  exportPathMap: async function (
+    defaultPathMap,
+    { dev, dir, outDir, distDir, buildId }
+  ) {
     return {
       '/': { page: '/' },
     }
